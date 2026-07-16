@@ -137,4 +137,4 @@ python manage.py runserver
 ---
 
 ## 👨‍💻 Developed By
-- Abdillah Ali Khamis & Fatma Suleiman  
+- ZIDADI KAMUGISHA BADRU $ABUBAKAR KHAMIS ALI 
