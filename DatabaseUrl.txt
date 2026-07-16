@@ -1,0 +1,13 @@
+HostName = dpg-d1ct95h5pdvs73c55pc0-a
+Port = 5432
+Database = pms_3hht
+Username = pms_3hht_user
+Password = VZrwxa5y3MNMg2l8xY6GOGlZYZ1e0UBn
+Internal Database Url =postgresql://pms_3hht_user:VZrwxa5y3MNMg2l8xY6GOGlZYZ1e0UBn@dpg-d1ct95h5pdvs73c55pc0-a/pms_3hht
+External Database Url = postgresql://pms_3hht_user:VZrwxa5y3MNMg2l8xY6GOGlZYZ1e0UBn@dpg-d1ct95h5pdvs73c55pc0-a.oregon-postgres.render.com/pms_3hht
+PSQL Command = PGPASSWORD=VZrwxa5y3MNMg2l8xY6GOGlZYZ1e0UBn psql -h dpg-d1ct95h5pdvs73c55pc0-a.oregon-postgres.render.com -U pms_3hht_user pms_3hht
+
+postgresql://pms_3hht_user:VZrwxa5y3MNMg2l8xY6GOGlZYZ1e0UBn@dpg-d1ct95h5pdvs73c55pc0-a/pms_3hht
+
+
+
