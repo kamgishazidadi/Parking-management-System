@@ -1,0 +1,161 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .nav .logout-link {
+    margin-left: auto;
+    color: red;
+  }
+  
+  .payments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255,0.3);
+    backdrop-filter: blur(10px);
+  }
+  
+  .payments-table th,
+  .payments-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .payments-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  
+  .edit-form {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255,0.3);
+    backdrop-filter: blur(10px);
+  }
+  .payment-form {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    /* background: #f9f9f9; */
+    background-color: rgba(255, 255, 255,0.3);
+    backdrop-filter: blur(10px);
+  }
+  
+  .edit-form h2 {
+    margin-bottom: 15px;
+  }
+  
+  .edit-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .edit-form input,
+  .edit-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+
+  .add-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+  .payment-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .payment-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .payment-form input, .payment-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-buttons button:hover {
+    opacity: 0.9;
+  }
+  
+  .payments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .payments-table th, .payments-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .payments-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  

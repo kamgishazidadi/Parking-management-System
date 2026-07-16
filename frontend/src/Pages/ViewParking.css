@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+}
+.header {
+    background-color: #28a745;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.parking-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+.parking-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.parking-card h2 {
+    color: #333;
+}
+.parking-card p {
+    color: #555;
+}
+.book-button {
+    background-color: #0073e6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.book-button:hover {
+    background-color: #005bb5;
+}
+
+.reservation-form {
+  margin-top: 15px;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.reservation-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.reservation-form input,
+.reservation-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.reservation-form button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

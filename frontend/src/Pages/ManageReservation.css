@@ -1,0 +1,226 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.nav {
+  background-color: #004a99;
+  padding: 1rem;
+  text-align: center;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 2em;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Add Button */
+.add-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.75em 1.5em;
+  cursor: pointer;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+/* Reservations Table */
+.reservations-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  /* background-color: #fff; */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255,0.3);
+  backdrop-filter: blur(10px);
+  
+}
+
+.reservations-table th,
+.reservations-table td {
+  padding: 0.75em;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.reservations-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.reservations-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.reservations-table .edit-button,
+.reservations-table .delete-button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.reservations-table .edit-button {
+  background-color: #ffa500;
+  color: white;
+}
+
+.reservations-table .edit-button:hover {
+  background-color: #e69500;
+}
+
+.reservations-table .delete-button {
+  background-color: #d9534f;
+  color: white;
+}
+
+.reservations-table .delete-button:hover {
+  background-color: #c12e2a;
+}
+
+/* Floating Add/Edit Form */
+.form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
+  background-color: white;
+  padding: 2em;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  z-index: 1000;
+  display: none; /* Hidden by default */
+}
+
+.form-container.active {
+  display: block; /* Show form when active */
+}
+
+.form-container h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
+.form-buttons button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-buttons button:first-child {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.form-buttons button:first-child:hover {
+  background-color: #45a049;
+}
+
+.form-buttons button:last-child {
+  background-color: #d9534f;
+  color: white;
+}
+
+.form-buttons button:last-child:hover {
+  background-color: #c12e2a;
+}
+
+/* Overlay Background */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999; /* Ensure it appears behind the form */
+  display: none; /* Hidden by default */
+}
+
+.overlay.active {
+  display: block; /* Show overlay when active */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-container {
+    width: 95%;
+    padding: 1.5em;
+  }
+
+  .form-buttons {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+}
+
+
+.save-button, .cencel-button{
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  margin-top: 20px;
+}
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+.delete-button:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+}
+.header {
+    background-color: #28a745;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.account-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.account-info, .parking-history {
+    margin-bottom: 2rem;
+}
+.account-info h2, .parking-history h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+.account-info p, .parking-history li {
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+#btn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}

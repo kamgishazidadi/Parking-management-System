@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+}
+.header {
+    background-color: #28a745;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.nav {
+    background-color: #1e7b34;
+    padding: 1rem;
+    text-align: center;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+.customer-home-container {
+    text-align: center;
+    padding: 2rem;
+}
+.customer-home-container h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+.customer-home-container p {
+    color: #555;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.actions {
+    margin-top: 2rem;
+}
+.action-button {
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.action-button:hover {
+    background-color: #005bb5;
+}
+.contact-support {
+    margin-top: 3rem;
+}
+.contact-support h3 {
+    color: #444;
+}
+.support-button {
+    background-color: #17a2b8;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: inline-block;
+}
+.support-button:hover {
+    background-color: #117a8b;
+}
