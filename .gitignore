@@ -1,20 +1,26 @@
-venv/
-.env
+# Python / Django
 __pycache__/
-*.pyc
-db.sqlite3
+*.py[cod]
+venv/
+.venv/
 
-frontend/node_modules/
-frontend/venv/
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# React
+node_modules/
 frontend/build/
-frontend/.env
 
+# Editors and operating systems
 .vscode/
-*.log
+.DS_Store
 Thumbs.db
-Desktop.inifrontend/node_modules/
-frontend/build/
-__pycache__/
-*.pyc
-venv/
-.env
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

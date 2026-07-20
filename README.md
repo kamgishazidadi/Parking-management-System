@@ -10,9 +10,18 @@ A full-stack web and mobile-friendly parking management system for customers and
 ```
 parkzone-project/
 │
-├── backend/          # Django REST API backend
-├── frontend/         # ReactJS frontend
-└── README.md         # Project documentation (this file)
+├── backend/          # Django REST API, database and Python dependencies
+│   ├── ParkZone/     # Django project settings
+│   ├── Parkzoneapp/  # Models, serializers and views
+│   ├── api/          # API routes
+│   └── manage.py     # Django command entry point
+├── frontend/         # ReactJS application
+│   ├── public/
+│   ├── src/
+│   └── package.json
+├── .github/          # GitHub Actions deployment workflows
+├── build.sh          # Backend deployment build command
+└── README.md         # Project documentation
 ```
 
 ---
@@ -54,6 +63,10 @@ All requests are handled through `axiosInstance.js` pointing to the backend base
 
 ## ⚙️ BACKEND (Django + Django REST Framework)
 
+### 📁 Location
+```
+/backend
+```
 
 
 ###  Setup Instructions
